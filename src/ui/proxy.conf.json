@@ -1,0 +1,8 @@
+{
+    "/api/files/*": {
+        "target": "http://localhost:8900",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

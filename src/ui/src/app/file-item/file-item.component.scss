@@ -1,0 +1,11 @@
+@import "flex";
+
+:host {
+    @extend %flex-row;
+}
+
+.file-name {
+    @extend %flex-grow;
+    position: relative;
+    top: -1px;
+}

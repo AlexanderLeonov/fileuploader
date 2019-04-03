@@ -1,0 +1,4 @@
+<div class="file-name">{{file?.name}}</div>
+<!-- if download fails with 404 then browser's 404 page will appear instead of app - not going to process it here -->
+<a class="btn btn-link btn-sm btn-download" [href]="file?.url"><fa-icon [icon]="['fas', 'download']"></fa-icon></a>
+<button class="btn btn-link btn-sm btn-delete" (click)="deleteFile.emit()"><fa-icon [icon]="['fas', 'trash']"></fa-icon></button>

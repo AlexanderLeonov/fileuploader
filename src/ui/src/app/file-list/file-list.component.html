@@ -1,0 +1,5 @@
+<app-file-item class="file-row"
+               *ngFor="let file of files"
+               [file]="file"
+               (deleteFile)="deleteFile.emit(file.name)">
+</app-file-item>

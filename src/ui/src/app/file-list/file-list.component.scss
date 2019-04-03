@@ -1,0 +1,13 @@
+@import "variables";
+@import "flex";
+
+:host {
+    @extend %flex-column;
+    align-self: flex-start;
+    padding: $app-padding;
+}
+
+.file-row {
+    @extend %flex-row;
+    @extend %flex-grow;
+}

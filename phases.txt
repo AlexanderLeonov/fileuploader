@@ -1,0 +1,69 @@
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ file-uploader-service ---
+[INFO] Deleting D:\Projects\fileuploader\target
+[INFO] Deleting D:\Projects\fileuploader\src\main\resources (includes = [static/**/*], excludes = [])
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.7.5:install-node-and-npm (install node and npm) @ file-uploader-service ---
+[INFO] Node v8.9.4 is already installed.
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.7.5:npm (npm install) @ file-uploader-service ---
+[INFO] Running 'npm install --loglevel error' in D:\Projects\fileuploader\src\ui
+[INFO] up to date in 5.535s
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ file-uploader-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:copy-resources (copy-resources) @ file-uploader-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.1.3.RELEASE:run (default-cli) > test-compile @ file-uploader-service >>>
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.7.5:install-node-and-npm (install node and npm) @ file-uploader-service ---
+[INFO] Node v8.9.4 is already installed.
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.7.5:npm (npm install) @ file-uploader-service ---
+[INFO] Running 'npm install --loglevel error' in D:\Projects\fileuploader\src\ui
+[INFO] up to date in 4.999s
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ file-uploader-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:copy-resources (copy-resources) @ file-uploader-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ file-uploader-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to D:\Projects\fileuploader\target\classes
+[INFO] 
+[INFO] --- frontend-maven-plugin:1.7.5:npm (npm build) @ file-uploader-service ---
+[INFO] Running 'npm run build' in D:\Projects\fileuploader\src\ui
+[INFO] 
+[INFO] > file-upload-ui@0.1.0 build D:\Projects\fileuploader\src\ui
+[INFO] > ng build
+[INFO] 
+[INFO] 
+[INFO] Date: 2019-03-29T01:55:32.143Z
+[INFO] Hash: 46ccc9aefe220804f1d0
+[INFO] Time: 8722ms
+[INFO] chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]
+[INFO] chunk {main} main.js, main.js.map (main) 41.8 kB [initial] [rendered]
+[INFO] chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 236 kB [initial] [rendered]
+[INFO] chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+[INFO] chunk {styles} styles.js, styles.js.map (styles) 826 kB [initial] [rendered]
+[INFO] chunk {vendor} vendor.js, vendor.js.map (vendor) 4.66 MB [initial] [rendered]
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ file-uploader-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Projects\fileuploader\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ file-uploader-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.1.3.RELEASE:run (default-cli) < test-compile @ file-uploader-service <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.3.RELEASE:run (default-cli) @ file-uploader-service ---

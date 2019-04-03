@@ -1,0 +1,9 @@
+<form class="form" ngForm (ngSubmit)="onSubmit($event)">
+    <label class="btn btn-light btn-browse">
+        Browse <input type="file" name="files" multiple hidden (change)="onChange(fileInput.files)" #fileInput/>
+    </label>
+    <input class="btn btn-light btn-submit" type="submit" [disabled]="files.length === 0" value="Upload"/>
+    <div *ngIf="!files.length" class="file-info">No files selected</div>
+    <div *ngIf="files.length" class="file-info">{{files.length}} files selected; </div>
+    <div *ngIf="files.length" class="file-info">{{files | totalFileSize}} bytes total</div>
+</form>

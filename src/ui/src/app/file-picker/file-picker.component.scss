@@ -1,0 +1,20 @@
+@import "variables";
+@import "flex";
+
+:host {
+    padding: $app-padding;
+}
+
+.form {
+
+    @extend %flex-row;
+
+    .btn-submit {
+        margin-left: $app-padding;
+    }
+
+    .file-info {
+        padding: 0 $app-padding;
+    }
+
+}

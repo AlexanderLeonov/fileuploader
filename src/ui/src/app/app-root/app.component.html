@@ -1,0 +1,5 @@
+<div class="header">
+    <app-file-picker (submitFiles)="onSubmit($event)"></app-file-picker>
+    <app-show-error class="error-alert" *ngIf="isErrorVisible" [error]="error"></app-show-error>
+</div>
+<app-file-list [files]="fileList$ | async" (deleteFile)="deleteFile($event)"></app-file-list>
